@@ -2,7 +2,7 @@
  * @Description:  App
  * @Author: zhang yumei
  * @Date: 2021-02-03 10:09:15
- * @LastEditTime: 2021-02-04 17:33:52
+ * @LastEditTime: 2021-02-05 16:22:40
  * @LastEditors: zhang yumei
  */
 import React from 'react'
@@ -10,7 +10,7 @@ import { BrowserRouter as Router, NavLink, Link, Route } from "react-router-dom"
 import "./App.less"
 import Home from './components/Home.js';
 import Login from './components/Login.js';
-import Game from './components/Game.js';
+import Game from './components/Game/Game.js';
 import Mark from './components/Mark.js';
 export default class App extends React.Component {
   render() {
