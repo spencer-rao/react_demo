@@ -2,7 +2,7 @@
  * @Description:  
  * @Author: zhang yumei
  * @Date: 2021-02-03 10:24:45
- * @LastEditTime: 2021-02-05 17:58:57
+ * @LastEditTime: 2021-02-05 20:33:46
  * @LastEditors: zhang yumei
  */
 import React from "react"
@@ -80,7 +80,7 @@ class Game extends React.Component {
             }, 0)
         }
         return (
-            <div className="game" id="a">
+            <div className="game" >
                 <div className="game-board">
                     <Board
                         square={this.state.square}
@@ -93,7 +93,6 @@ class Game extends React.Component {
                         onClick={() => this.friststep()}>显示上一步</button></div>
                     <div><button
                         onClick={() => this.laststep()}>显示下一步</button></div>
-                    <ol>{/* TODO */}</ol>
                 </div>
             </div>
         );
